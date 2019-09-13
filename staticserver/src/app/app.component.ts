@@ -12,6 +12,9 @@ export class AppComponent implements OnInit {
   /*handleButtonClick(event){
     const component = document.querySelector('wc-one');
     component.setAttribute("value", event.detail.message);
+
+    //const vuecomponent = document.querySelector('wc-three');
+    //vuecomponent.setAttribute("value", event.detail.message);
   }*/
 
   ngOnInit(){
