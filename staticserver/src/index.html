@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Staticserver</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Angular Web Components</title>
+</head>
+<body>
+
+
+    <script src="assets/native-shim.js"></script>
+
+        
+    
+    <!-- Polyfills for Browsers not supporting
+        Custom Elements. See: @webcomponents/custom-elements
+    -->
+    <script src="assets/custom-elements.min.js"></script>
+    
+    <!-- Zone.js -->
+    <!-- 
+    Consider excluding zone.js when creating
+    Custom Elements by using the noop zone.
+    -->
+    <script src="assets/zone.min.js"></script>
+    
+    <!-- Rx -->
+    <script src="assets/rxjs.umd.min.js"></script>
+
+    
+
+    <!-- Angular Packages -->
+    <script src="assets/core.umd.min.js"></script>
+    <script src="assets/common.umd.min.js"></script>
+    <script src="assets/common-http.umd.min.js"></script>
+    <script src="assets/platform-browser.umd.min.js"></script>
+    <script src="assets/elements.umd.min.js"></script>
+    
+    <!-- add custom element files -->
+    <!-- <script src="assets/element_one.js"></script>
+    <script src="assets/element_two.js"></script> -->
+
+    
+
+  <app-root></app-root>
+</body>
+</html>
