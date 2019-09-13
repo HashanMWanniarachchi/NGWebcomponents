@@ -29,7 +29,8 @@ export default {
 
 <style scoped>
 .sameclass{
-  background: crimson
+  background: crimson;
+  font-weight: 500 !important;
 }
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
