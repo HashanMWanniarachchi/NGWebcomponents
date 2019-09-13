@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "pkgbuild": "npm run ngxbuild && npm run package",
     "ngxbuild": "ng build --prod --extraWebpackConfig webpack.extra.js --output-hashing none --single-bundle true",
     "package": "jscat dist/wc-two/main-es5.js dist/wc-two/scripts.js > element_two.js",
     "test": "ng test",
