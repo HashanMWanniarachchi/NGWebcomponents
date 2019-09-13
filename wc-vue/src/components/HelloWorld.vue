@@ -1,5 +1,5 @@
 <template>
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid" style="height: 30%">
     <div class="container">
       <h1 class="display-4">
         {{ title }}
@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 .sameclass{
-  background: crimson;
+  background: skyblue;
   font-weight: 500 !important;
 }
 /*!
