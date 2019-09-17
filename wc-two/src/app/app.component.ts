@@ -10,13 +10,13 @@ export class AppComponent {
 
   compName: String = 'Component Two!';
 
-  //@Input() name: String;
+  @Input() name: String;
 
-  //@Output() buttonClicked = new EventEmitter<{message:String}>(); //custom event for button click
+  @Output() buttonClicked = new EventEmitter<{message:String}>(); //custom event for button click
 
-  /*onButtonClick(){
+  onButtonClick(){
     this.compName = this.name ? this.name : this.compName;
     var msg = this.compName + " said Hello";
     this.buttonClicked.emit({message: msg});
-  }*/
+  }
 }

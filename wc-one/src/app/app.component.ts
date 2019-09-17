@@ -8,10 +8,9 @@ import { Component, Input } from '@angular/core';
 export class AppComponent {
   title = 'wc-one';
 
-  //@Input() value: String;
+  @Input() value: String;
 
-  /*constructor(){
+  constructor(){
     this.value = "Waiting for someone to say hello...";
   }
-  */
 }
