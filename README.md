@@ -9,7 +9,8 @@ Example of running multiple instances of custom elements using Angular
 3. run ``` npm run package ```
 
 ### Vue
-1. run ``` npm run wcbuild ```
+1. run ``` npm install ```
+2. run ``` npm run wcbuild ```
 
 ## Using the host application
 1. copy files from the web component project / ``` dist ``` folder
