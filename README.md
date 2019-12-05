@@ -15,7 +15,8 @@ Example of running multiple instances of custom elements using Angular
 ## Using the host application
 1. copy files from the web component project / ``` dist ``` folder
 2. paste them in to ``` assets ``` folder in ``` staticserver/src ```
-3. run ``` npm run start ```
+3. run ``` npm install ```
+4. run ``` npm run start ```
 
 ## Further Reading
 
